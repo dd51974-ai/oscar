@@ -81,6 +81,10 @@ INSTALLED_APPS = [
     'django_tables2',
 ]
 
+#INSTALLED_APPS += get_core_apps([
+#    'oscar_fork.catalogue',
+#])
+
 SITE_ID = 1
 
 MIDDLEWARE = [
